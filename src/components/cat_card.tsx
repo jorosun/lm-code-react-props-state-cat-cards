@@ -1,8 +1,13 @@
+import { Key } from "react";
+import cat1 from "../assets/images/cat1.jpg";
+import CatImage from "./cat_image";
+import images from "./cat_image";
 interface CatCardProps {
   name: string;
   species: string;
   favFoods: Array<string>;
   birthYear: number;
+  catIndex: number;
 }
 
 const CatCard: React.FC<CatCardProps> = (props) => {
