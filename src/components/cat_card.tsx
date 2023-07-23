@@ -1,7 +1,6 @@
-import { Key } from "react";
-import cat1 from "../assets/images/cat1.jpg";
 import CatImage from "./cat_image";
-import images from "./cat_image";
+import { images } from "./cat_image";
+
 interface CatCardProps {
   name: string;
   species: string;
@@ -10,13 +9,29 @@ interface CatCardProps {
   catIndex: number;
 }
 
-const CatCard: React.FC<CatCardProps> = (props) => {
+const CatCard: React.FC<CatCardProps> = ({
+  name,
+  species,
+  favFoods,
+  birthYear,
+  catIndex,
+}) => {
   return (
     <div className="card">
-      <h3 className="card__text card__header">{props.name}</h3>
-      <p className="card__text">Species: {props.species}</p>
-      <p className="card__text">Favourite Food(s): {props.favFoods}</p>
-      <p className="card__text">Birth Year: {props.birthYear}</p>
+      <h3 className="card__text card__header">{name}</h3>
+      <p className="card__text">Species: {species}</p>
+      <p className="card__text">Favourite Food(s): {favFoods}</p>
+      <p className="card__text">Birth Year: {birthYear}</p>
+      {CatImage && (
+        <CatImage
+          image={images[catIndex].image}
+          altText={images[catIndex].altText}
+          licenceType={images[catIndex].licenceType}
+          licenceUrl={images[catIndex].licenceUrl}
+          attributionName={images[catIndex].attributionName}
+          attributionUrl={images[catIndex].attributionUrl}
+        />
+      )}
     </div>
   );
 };
