@@ -22,7 +22,7 @@ const CatCard: React.FC<CatCardProps> = ({
       <p className="card__text">Species: {species}</p>
       <p className="card__text">Favourite Food(s): {favFoods}</p>
       <p className="card__text">Birth Year: {birthYear}</p>
-      {CatImage && (
+      {images[catIndex] && (
         <CatImage
           image={images[catIndex].image}
           altText={images[catIndex].altText}

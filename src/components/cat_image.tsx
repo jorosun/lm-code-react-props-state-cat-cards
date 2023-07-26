@@ -14,7 +14,7 @@ import cat12 from "../assets/images/cat12.jpg";
 export const images = [
   {
     image: cat1,
-    altText: "Describe this cat!",
+    altText: "Black cat with white chest",
     licenceType: "CC BY-SA 2.0",
     licenceUrl: "https://creativecommons.org/licenses/by-sa/2.0/",
     attributionName: "amblin",
@@ -22,7 +22,7 @@ export const images = [
   },
   {
     image: cat2,
-    altText: "Describe this cat!",
+    altText: "Light ginger and white cat with big eyes",
     licenceType: "CC BY-SA 2.0",
     licenceUrl: "https://creativecommons.org/licenses/by-sa/2.0/",
     attributionName: "ivva",
@@ -30,7 +30,7 @@ export const images = [
   },
   {
     image: cat3,
-    altText: "Describe this cat!",
+    altText: "Tabby cat",
     licenceType: "CC BY-ND 2.0",
     licenceUrl: "https://creativecommons.org/licenses/by-nd/2.0/",
     attributionName: "Rachele Pettarelli Ph",
@@ -38,7 +38,7 @@ export const images = [
   },
   {
     image: cat4,
-    altText: "Describe this cat!",
+    altText: "upside down pucture of just cats face and blue background",
     licenceType: "CC BY 2.0",
     licenceUrl: "https://creativecommons.org/licenses/by/2.0/",
     attributionName: "renarl",
@@ -46,7 +46,7 @@ export const images = [
   },
   {
     image: cat5,
-    altText: "Describe this cat!",
+    altText: "ginger tabby cat",
     licenceType: "CC BY-SA 2.0",
     licenceUrl: "https://creativecommons.org/licenses/by-sa/2.0/",
     attributionName: "x-oph",
@@ -54,7 +54,7 @@ export const images = [
   },
   {
     image: cat6,
-    altText: "Describe this cat!",
+    altText: "picture of a grey cat with shocked look on face ",
     licenceType: "CC BY-ND 2.0",
     licenceUrl: "https://creativecommons.org/licenses/by-nd/2.0/",
     attributionName: "arrathoonlaa@att.net",
@@ -62,7 +62,7 @@ export const images = [
   },
   {
     image: cat7,
-    altText: "Describe this cat!",
+    altText: "Fluffy gey cat with blue background",
     licenceType: "CC BY 2.0",
     licenceUrl: "https://creativecommons.org/licenses/by/2.0/",
     attributionName: "pavlovskyy",
@@ -70,7 +70,7 @@ export const images = [
   },
   {
     image: cat8,
-    altText: "Describe this cat!",
+    altText: "White and ginger cat",
     licenceType: "CC BY 2.0",
     licenceUrl: "https://creativecommons.org/licenses/by/2.0/",
     attributionName: "AleGranholm",
@@ -78,7 +78,7 @@ export const images = [
   },
   {
     image: cat9,
-    altText: "Describe this cat!",
+    altText: "White cat that looks like its wearing makeup",
     licenceType: "CC BY 2.0",
     licenceUrl: "https://creativecommons.org/licenses/by/2.0/",
     attributionName: "Sardonic G",
@@ -86,7 +86,7 @@ export const images = [
   },
   {
     image: cat10,
-    altText: "Describe this cat!",
+    altText: "Grey tabby cat that is stretching",
     licenceType: "CC BY 2.0",
     licenceUrl: "https://creativecommons.org/licenses/by/2.0/",
     attributionName: "www.metaphoricalplatypus.com",
@@ -94,7 +94,7 @@ export const images = [
   },
   {
     image: cat11,
-    altText: "Describe this cat!",
+    altText: "Fluffy ginger cat asleep",
     licenceType: "CC BY-SA 2.0",
     licenceUrl: "https://creativecommons.org/licenses/by-sa/2.0/",
     attributionName: "abraham.williams",
@@ -102,7 +102,7 @@ export const images = [
   },
   {
     image: cat12,
-    altText: "Describe this cat!",
+    altText: "face of white fluffy cat looking angry",
     licenceType: "CC BY-SA 2.0",
     licenceUrl: "https://creativecommons.org/licenses/by-sa/2.0/",
     attributionName: "x-oph",
